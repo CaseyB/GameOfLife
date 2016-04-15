@@ -74,6 +74,11 @@ public class Cell
 		_isAlive = _willBeAlive;
 	}
 
+	public void addNeighbor(final Cell neighbor)
+	{
+		_neighbors.add(neighbor);
+	}
+
 	public void setNeighbors(final List<Cell> neighbors)
 	{
 		_neighbors = neighbors;
