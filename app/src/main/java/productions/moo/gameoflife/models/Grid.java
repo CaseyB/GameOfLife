@@ -19,63 +19,63 @@ public class Grid
 		// Go through and reset the cells to match the test state
 		// ......O.
 		_cells.get(0).setAlive(false);
-		_cells.get(0).setAlive(false);
-		_cells.get(0).setAlive(false);
-		_cells.get(0).setAlive(false);
-		_cells.get(0).setAlive(false);
-		_cells.get(0).setAlive(false);
-		_cells.get(0).setAlive(true);
-		_cells.get(0).setAlive(false);
+		_cells.get(1).setAlive(false);
+		_cells.get(2).setAlive(false);
+		_cells.get(3).setAlive(false);
+		_cells.get(4).setAlive(false);
+		_cells.get(5).setAlive(false);
+		_cells.get(6).setAlive(true);
+		_cells.get(7).setAlive(false);
 
 		// OOO...O.
-		_cells.get(0).setAlive(true);
-		_cells.get(0).setAlive(true);
-		_cells.get(0).setAlive(true);
-		_cells.get(0).setAlive(false);
-		_cells.get(0).setAlive(false);
-		_cells.get(0).setAlive(false);
-		_cells.get(0).setAlive(true);
-		_cells.get(0).setAlive(false);
+		_cells.get( 8).setAlive(true);
+		_cells.get( 9).setAlive(true);
+		_cells.get(10).setAlive(true);
+		_cells.get(11).setAlive(false);
+		_cells.get(12).setAlive(false);
+		_cells.get(13).setAlive(false);
+		_cells.get(14).setAlive(true);
+		_cells.get(15).setAlive(false);
 
 		// ......O.
-		_cells.get(0).setAlive(false);
-		_cells.get(0).setAlive(false);
-		_cells.get(0).setAlive(false);
-		_cells.get(0).setAlive(false);
-		_cells.get(0).setAlive(false);
-		_cells.get(0).setAlive(false);
-		_cells.get(0).setAlive(true);
-		_cells.get(0).setAlive(false);
+		_cells.get(16).setAlive(false);
+		_cells.get(17).setAlive(false);
+		_cells.get(18).setAlive(false);
+		_cells.get(19).setAlive(false);
+		_cells.get(20).setAlive(false);
+		_cells.get(21).setAlive(false);
+		_cells.get(22).setAlive(true);
+		_cells.get(23).setAlive(false);
 
 		// ........
-		_cells.get(0).setAlive(false);
-		_cells.get(0).setAlive(false);
-		_cells.get(0).setAlive(false);
-		_cells.get(0).setAlive(false);
-		_cells.get(0).setAlive(false);
-		_cells.get(0).setAlive(false);
-		_cells.get(0).setAlive(false);
-		_cells.get(0).setAlive(false);
+		_cells.get(24).setAlive(false);
+		_cells.get(25).setAlive(false);
+		_cells.get(26).setAlive(false);
+		_cells.get(27).setAlive(false);
+		_cells.get(28).setAlive(false);
+		_cells.get(29).setAlive(false);
+		_cells.get(30).setAlive(false);
+		_cells.get(31).setAlive(false);
 
 		// ...OO...
-		_cells.get(0).setAlive(false);
-		_cells.get(0).setAlive(false);
-		_cells.get(0).setAlive(false);
-		_cells.get(0).setAlive(true);
-		_cells.get(0).setAlive(true);
-		_cells.get(0).setAlive(false);
-		_cells.get(0).setAlive(false);
-		_cells.get(0).setAlive(false);
+		_cells.get(32).setAlive(false);
+		_cells.get(33).setAlive(false);
+		_cells.get(34).setAlive(false);
+		_cells.get(35).setAlive(true);
+		_cells.get(36).setAlive(true);
+		_cells.get(37).setAlive(false);
+		_cells.get(38).setAlive(false);
+		_cells.get(39).setAlive(false);
 
 		// ...OO...
-		_cells.get(0).setAlive(false);
-		_cells.get(0).setAlive(false);
-		_cells.get(0).setAlive(false);
-		_cells.get(0).setAlive(true);
-		_cells.get(0).setAlive(true);
-		_cells.get(0).setAlive(false);
-		_cells.get(0).setAlive(false);
-		_cells.get(0).setAlive(false);
+		_cells.get(40).setAlive(false);
+		_cells.get(41).setAlive(false);
+		_cells.get(42).setAlive(false);
+		_cells.get(43).setAlive(true);
+		_cells.get(44).setAlive(true);
+		_cells.get(45).setAlive(false);
+		_cells.get(46).setAlive(false);
+		_cells.get(47).setAlive(false);
 	}
 
 	public Grid (int width, int height)
