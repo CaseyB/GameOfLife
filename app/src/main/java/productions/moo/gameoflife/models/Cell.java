@@ -17,8 +17,13 @@ public class Cell
 
 	public Cell(boolean alive)
 	{
-		_isAlive = true;
+		_isAlive = alive;
 		_neighbors = new ArrayList<>(8);
+	}
+
+	public boolean isAlive()
+	{
+		return _isAlive;
 	}
 
 	// TODO: Take this out later, we shouldn't really be setting this. It's only here for the code test.
