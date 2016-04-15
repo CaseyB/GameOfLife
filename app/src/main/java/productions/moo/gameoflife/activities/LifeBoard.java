@@ -80,6 +80,7 @@ public class LifeBoard extends View
 				left += cellWidth;
 			}
 
+			left = 0;
 			top += cellHeight;
 		}
 	}
