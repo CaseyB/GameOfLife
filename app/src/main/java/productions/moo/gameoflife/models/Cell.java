@@ -17,7 +17,7 @@ public class Cell
 
 	public Cell(boolean alive)
 	{
-		_isAlive = true;
+		_isAlive = alive;
 		_neighbors = new ArrayList<>(8);
 	}
 
