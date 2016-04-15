@@ -93,9 +93,9 @@ public class Grid
 		}
 
 		// Assign neighbors
-		for (int x = 0; x < _width; x++)
+		for (int y = 0; y < _height; y++)
 		{
-			for (int y = 0; y < _height; y++)
+			for (int x = 0; x < _width; x++)
 			{
 				Cell target = getCell(x, y);
 
@@ -162,7 +162,7 @@ public class Grid
 
 	private void assignNeighbor (Cell target, int x, int y)
 	{
-		if (x < 0 || y < 0)
+		if (x < 0 || y < 0 || x >= _width || y >= _height)
 		{
 			return;
 		}
