@@ -53,12 +53,17 @@ public class LifeBoard extends View
 	{
 		super.onDraw(canvas);
 
+		// Clear Canvas
+		canvas.drawColor(Color.BLACK);
+
+		if (_grid == null)
+		{
+			return;
+		}
+
 		int cellWidth = getWidth() / _grid.getWidth();
 		int cellHeight = getHeight() / _grid.getHeight();
 		int left = 0, top = 0;
-
-		// Clear Canvas
-		canvas.drawColor(Color.BLACK);
 
 		for (int y = 0; y < _grid.getHeight(); y++)
 		{
