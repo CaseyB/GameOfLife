@@ -35,15 +35,15 @@ public class LifeBoard extends View
 		setGrid(new Grid());
 	}
 
-	public void setGrid(final Grid grid)
+	public void setGrid (final Grid grid)
 	{
 		_grid = grid;
 		invalidate();
 	}
 
-	public void update()
+	public void update ()
 	{
-		if(_grid != null)
+		if (_grid != null)
 		{
 			_grid.update();
 			invalidate();
@@ -72,7 +72,7 @@ public class LifeBoard extends View
 			for (int x = 0; x < _grid.getWidth(); x++)
 			{
 				Cell cell = _grid.getCell(x, y);
-				if(cell.isAlive())
+				if (cell.isAlive())
 				{
 					canvas.drawRect(left, top, left + cellWidth, top + cellHeight, _paint);
 				}

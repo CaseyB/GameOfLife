@@ -168,7 +168,7 @@ public class Grid
 		}
 
 		Cell neighbor = getCell(x, y);
-		if(neighbor != null)
+		if (neighbor != null)
 		{
 			target.addNeighbor(neighbor);
 		}
