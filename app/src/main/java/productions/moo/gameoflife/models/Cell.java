@@ -21,6 +21,11 @@ public class Cell
 		_neighbors = new ArrayList<>(8);
 	}
 
+	public boolean isAlive()
+	{
+		return _isAlive;
+	}
+
 	// TODO: Take this out later, we shouldn't really be setting this. It's only here for the code test.
 	public void setAlive(boolean alive)
 	{
