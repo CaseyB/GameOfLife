@@ -31,6 +31,8 @@ public class LifeBoard extends View
 
 		_paint = new Paint();
 		_paint.setColor(Color.GREEN);
+
+		setGrid(new Grid());
 	}
 
 	public void setGrid(final Grid grid)
